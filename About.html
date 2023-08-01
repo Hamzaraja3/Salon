@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+</head>
+
+<body>
+    <div
+        class="h-full w-full bg-cover bg-[linear-gradient(to_left_bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/Assests/bg3.jpg')] mx auto flex-wrap">
+        <nav class="hidden lg:flex justify-center">
+            <img src="/Assests/logo.png" class=" w-[100px] h-[80px]  mt-4" alt="" />
+            <ul class="space-x-6 p-8 mt-4 mr-6">
+                <li class="list-none inline-block">
+                    <a href="index.html" class="text-white font-[Josefin Sans] font-light">Home</a>
+                </li>
+                <li class="list-none inline-block">
+                    <a href="About.html" class="text-white font-[Josefin Sans] font-light">About</a>
+                </li>
+                <li class="list-none inline-block">
+
+                    <div class="group">
+                      <a href="Services.html"></a>
+                        <button id="dropdownDelayButton" data-dropdown-toggle="dropdownDelay" data-dropdown-delay="500"
+                            data-dropdown-trigger="hover"
+                            class="text-white  inline-flex items-center font-[Josefin Sans] font-light"
+                            type="button">Services<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="" d="m1 1 4 4 4-4" />
+                            </svg></button>
+                        <div id="dropdownDelay"
+                            class="z-10 absolute hidden group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow w-24 h-28 dark:bg-white">
+                            <ul class=" text-sm text-black dark:text-black " aria-labelledby="dropdownDelayButton">
+                                <li>
+                                    <a href="York.html" class="block px-4 py-2 hover:bg-white  dark:hover:text-black">York
+                                        Mills</a>
+                                </li>
+                                <li>
+                                    <a href="Bayview.html" class="block px-4 py-2 hover:bg-white dark:hover:text-black">Bayview</a>
+                                </li>
+                                <li>
+                                    <a href="Lawrence.html"
+                                        class="block px-4 py-2 hover:bg-white  dark:hover:text-black">Lawrence</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                </li>
+                <li class="list-none inline-block">
+                    <a href="Gallery.html" class="text-white font-[Josefin Sans] font-light">Gallery</a>
+                </li>
+                <li class="list-none inline-block">
+                    <a href="Careers.html" class="text-white font-[Josefin Sans] font-light">Careers</a>
+                </li>
+                <li class="list-none inline-block">
+                    <a href="Contact.html" class="text-white font-[Josefin Sans] font-light">Contact</a>
+                </li>
+                <li class="list-none inline-block">
+                    <div class=" "></div>
+                    <a href="Services.html"
+                        class="bg-[#8aaec3] hover:bg-[#acc8df]  text-white font-[Josefin Sans] font-light w-[300px] p-4">BOOK
+                        AN APPOINTMENT</a>
+                </li>
+                <li class="list-none inline-block">
+                    <div class=" "></div>
+                    <a href="Gift.html"
+                        class="bg-transparent  text-white font-[Josefin Sans]  border font-light w-[300px] p-4">GIFT
+                        CARD PURCHASE</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="flex lg:hidden justify-between items-center">
+            <div class="flex justify-center items-center">
+                <img src="/Assests/logo.png" class="w-[100px] h-[80px]  mt-4 ml-8" alt="" />
+            </div>
+            <div class="flex justify-center items-center bg-black h-12 w-12 text-white text-center mr-4">
+                <i class="material-icons text-3xl">menu</i>
+            </div>
+        </div>
+        <div class="flex items-center justify-center flex-col pt-2 mt2">
+            <h1 class=" text-white font-[Josefin Sans] text-center font-thin text-2xl w-full p-4 lg:text-5xl mt-4">About
+            </h1>
+            <h1 class=" text-white font-[Josefin Sans] text-center font-thin text-sm w-full p-4 lg:text-lg mb-6">Home /
+                About</h1>
+        </div>
+    </div>
+    <div class="flex flex-wrap bg-[#fff]  bg-cover bg-center ">
+        <div class="flex justify-center items-center w-full flex-col">
+            <h1
+                class="font-[Dancing-Script,Cursive] text-3xl font-thin text-[#8aaec3] text-center mx-8 pt-8 mt-6 w-full">
+                Complete</h1>
+            <h1 class="font-[Josefin Sans] text-3xl font-thin text-[#8aaec3] text-center  lg:mt-4 w-full mt-2">Customer
+                Satisfaction</h1>
+            <p class="font-[Josefin Sans] w-full lg:w-6/12 text-center text-extralight text-[#616161] text-lg mt-4">From
+                the moment they opened the doors to the first DBK Salon in 1988 Fari & Frank focused everything they did
+                on one goal. It meant more than expertly cutting, styling and colouring hair. They needed to make sure
+                clients were comfortable,
+                got the latest precision cuts and styles, and learned how to care for their hair.</p>
+            <p
+                class="font-[Josefin Sans] w-full lg:w-6/12 text-center text-extralight text-[#616161] text-lg mt-4 mb-8">
+                Today, 30 years later, Fari & Frank’s legacy carries on in every family-owned DBK Salon. And for every
+                customer we serve. It’s a formula that ensures you leave after each visit feeling satisfied with the
+                services and products you received – and feeling more beautiful than ever.
+                That’s really what we’re all about</p>
+        </div>
+    </div>
+    <div class="flex flex-wrap bg-[#fff]  bg-cover bg-center">
+        <img src="/Assests/dbk-new-five.jpg" alt="" class="w-full lg:w-1/2 lg:h-full h-fit" />
+        <div class="relative items-start flex justify-start flex-col lg:w-1/2 w-full h-full p-4">
+            <h1 class="font-[Dancing-Script,Cursive] text-3xl font-thin text-[#8aaec3] text-center mx-8 mt-8">
+                The
+            </h1>
+            <h2 class="font-[Josefin Sans] font-thin text-[#8aaec3] text-3xl text-center mx-6 w-1/3 lg:h-12 h-9">
+                Ambience
+            </h2>
+            <div class="flex justify-center items-center lg:items-start">
+                <p class="font-[Josefin Sans] font-extralight text-[#151515] w-10/12 h-36 text-lg p-4 lg:w-2/3 lg:p-0">
+                    It’s the firsts thing you experience. It is at once inviting, comfortable and inspiring.
+                </p>
+            </div>
+        </div>
+        <div class="mt-4 lg:flex lg:flex-row-reverse">
+            <img src="Assests/dbk-six.jpg" alt="" class="lg:w-1/2 w-full lg:h-full h-fit" />
+            <div class="relative items-start flex justify-start flex-col lg:w-1/2 w-full h-full p-4">
+                <h1
+                    class="font-[Dancing-Script,Cursive] text-3xl font-thin text-[#8aaec3] text-center lg:mx-6 mx-2 mt-8">
+                    The
+                </h1>
+                <h2 class="font-[Josefin Sans] font-thin text-[#8aaec3] text-3xl text-center mx-4 w-1/3 lg:h-12 h-8">
+                    Connections
+                </h2>
+                <div class="flex justify-center items-center lg:items-start">
+                    <p
+                        class="font-[Josefin Sans] font-extralight text-[#151515] w-10/12 h-36 text-lg p-6 lg:w-2/3 lg:p-0">
+                        How can any stylist create a “uniquely personal style” if they don’t learn more about who you
+                        are? Every visit starts with a professional consultation that tells us where you want to go
+                        today.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4 lg:flex">
+            <img src="/Assests/dbk-new-seven.jpg" alt="" class="lg:w-1/2 w-full lg:h-full h-fit" />
+            <div class="relative items-start flex justify-start flex-col lg:w-1/2 w-full h-full p-4">
+                <h1 class="font-[Dancing-Script,Cursive] text-3xl font-thin text-[#8aaec3] text-center mx-10 mt-8">
+                    The
+                </h1>
+                <h2 class="font-[Josefin Sans] font-thin text-[#8aaec3] text-3xl text-center  w-1/3 lg:h-12 h-8">
+                    Style
+                </h2>
+                <div class="flex justify-center items-center lg:items-start">
+                    <p
+                        class="font-[Josefin Sans] font-extralight text-[#151515] w-10/12 h-36 text-lg p-3 lg:w-2/3 lg:p-0 lg:ml-0 ml-2">
+                        Yes, every DBK Salon stylist is educated, trained and qualified. But that’s just the start. DBK
+                        Salon develops its own training programs to keep every stylist up-to-date of the ever-changing
+                        world of hair styling and care, and how to deliver it just like Frank and Fari did - DBK-style.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4 lg:flex lg:flex-row-reverse">
+            <img src="Assests/dbk-eight.jpg" alt="" class="lg:w-1/2 w-full lg:h-full h-fit" />
+            <div class="relative items-start flex justify-start flex-col lg:w-1/2 w-full h-full p-4">
+                <h1 class="font-[Dancing-Script,Cursive] text-3xl font-thin text-[#8aaec3] text-center mx-8 mt-8">
+                    The
+                </h1>
+                <h2
+                    class="font-[Josefin Sans] font-thin text-[#8aaec3] text-3xl text-center mx-8 pl-6 w-1/3 lg:h-12 h-8">
+                    Enlightenment
+                </h2>
+                <div class="flex justify-center items-center lg:items-start">
+                    <p
+                        class="font-[Josefin Sans] font-extralight text-[#151515] w-10/12 h-36 text-lg p-6 lg:w-2/3 lg:p-0">
+                        Frank and Fari realized that knowledgeable clients are better able to appreciate the DBK Salon
+                        experience. They researched, tested and stocked a wide range of top quality products and helped
+                        each client understand why and how to use them to maintain their style between visits.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div
+        class="min-w-full h-full bg-cover bg-[linear-gradient(to_left_bottom,rgba(46,46,46,0.7),rgba(46,46,46,0.7)),url('/Assests/customer-reviews-bg.jpg')] mx auto flex-wrap">
+        <div class="flex justify-center items-center w-full h-full">
+            <h1 class="font-[Josefin Sans] font-light h-full w-full text-3xl text-center text-[#fff] my-8">
+                Guest Reviews
+            </h1>
+        </div>
+        <div class="flex items-center justify-center flex-col">
+            <div class="flex items-center justify-between h-full w-11/12 lg:w-3/4 absolute mx-auto">
+                <div class="flex items-center justify-center">
+                    <i
+                        class="fa fa-angle-left text-2xl text-[#fff] text-center rounded-full bg-[#8aaec3] w-12 h-12 pt-2 pr-1"></i>
+                </div>
+                <div class="flex items-center justify-center">
+                    <i
+                        class="fa fa-angle-right text-2xl text-[#fff] text-center rounded-full bg-[#8aaec3] w-12 h-12 pt-2 pl-1"></i>
+                </div>
+            </div>
+            <p class="ont-[Josefin Sans] font-light text-center text-xl h-full w-[60%] lg:w-7/12 text-[#fff]">
+                Amazing experience ...... having my hair transformed by a KMS master stylist is a luxury everyone should
+                try at least once ....... this luxurious experience is a hidden gem in our city, nestled on the side of
+                Bayview Village do yourself the
+                favor and visit them before everyone finds out about this place and your left out .... Top10 BlogTo
+                Salon IMO.
+            </p>
+            <h1 class="font-[Josefin Sans] font-light text-center text-xl h-full w-full text-[#fff] my-6">
+                El Guapo
+            </h1>
+        </div>
+    </div>
+    <div
+      class="flex items-center justify-center flex-wrap mx-auto bg-center bg-cover group h-full w-full"
+    >
+      <div class="flex flex-col items-center justify-center h-full w-full my-4">
+        <h1 class="font-[Dancing-Script,Cursive] text-3xl text-[#8aaec3]">
+          our
+        </h1>
+        <h1 class="font-[Josefin Sans] font-extralight text-3xl text-[#8aaec3]">
+          Instagram
+        </h1>
+      </div>
+  </div>
+  <div class="lg:flex grid grid-cols-2 mb-6">
+    <div class="bg-[url('Assests/first.jpg')] lg:w-[300px] lg:h-[300px] bg-cover  group ">
+      <div class=" flex justify-end items-end">
+        <i class="fa fa-clone text-[#ffffe6] text-3xl text-end w-12 h-12"></i>
+      </div>
+      <div class="flex justify-between items-center flex-col w-4/5 h-[83%]">
+      <div class=" text-4xl text-black hover:opacity-70 justify-start flex items-start -mt-10 mx-4">
+        <h1 class="hidden group-hover:block text-center font-[Josefin Sans] font-medium text-[#ffffe6] w-full text-sm">dbksalon</h1>
+       
+    </div>
+    <div class="flex justify-end items-end">
+      <i class="fa fa-clock-o text-[#ffffe6] text-sm items-end hidden group-hover:block ">jul 22</i></div>
+    </div> 
+    <div class="flex justify-end items-end">
+      <i class="fa fa-instagram text-[#ffffe6] text-2xl items-end hidden group-hover:block -mt-10 p-2"></i></div>
+    </div>
+          <div class="bg-[url('Assests/second.jpg')] w-[300px] h-[300px] bg-cover group">
+            <div class=" flex justify-end items-end">
+              <i class="fa fa-clone text-[#ffffe6] text-3xl text-end w-12 h-12"></i>
+            </div>
+            <div class="flex justify-between items-center flex-col w-4/5 h-[83%]">
+            <div class=" text-4xl text-black hover:opacity-70 justify-start flex items-start -mt-10 mx-4">
+              <h1 class="hidden group-hover:block text-center font-[Josefin Sans] font-medium text-[#ffffe6] w-full text-sm">dbksalon</h1>
+             
+          </div>
+          <div class="flex justify-end items-end">
+            <i class="fa fa-clock-o text-[#ffffe6] text-sm items-end hidden group-hover:block ">jul 22</i></div>
+          </div> 
+          <div class="flex justify-end items-end">
+            <i class="fa fa-instagram text-[#ffffe6] text-2xl items-end hidden group-hover:block -mt-10 p-2"></i></div>
+          </div>
+          <div class="bg-[url('Assests/third.jpg')] w-[300px] h-[300px] bg-cover group">
+            <div class=" flex justify-end items-end">
+              <i class="fa fa-clone text-[#ffffe6] text-3xl text-end w-12 h-12"></i>
+            </div>
+            <div class="flex justify-between items-center flex-col w-4/5 h-[83%]">
+            <div class=" text-4xl text-black hover:opacity-70 justify-start flex items-start -mt-10 mx-4">
+              <h1 class="hidden group-hover:block text-center font-[Josefin Sans] font-medium text-[#ffffe6] w-full text-sm">dbksalon</h1>
+             
+          </div>
+          <div class="flex justify-end items-end">
+            <i class="fa fa-clock-o text-[#ffffe6] text-sm items-end hidden group-hover:block ">jul 22</i></div>
+          </div> 
+          <div class="flex justify-end items-end">
+            <i class="fa fa-instagram text-[#ffffe6] text-2xl items-end hidden group-hover:block -mt-10 p-2"></i></div>
+          </div>
+          <div class="bg-[url('Assests/fourth.jpg')] w-[300px] h-[300px] bg-cover group">
+            <div class=" flex justify-end items-end">
+              <i class="fa fa-clone text-[#ffffe6] text-3xl text-end w-12 h-12"></i>
+            </div>
+            <div class="flex justify-between items-center flex-col w-4/5 h-[83%]">
+            <div class=" text-4xl text-black hover:opacity-70 justify-start flex items-start -mt-10 mx-4">
+              <h1 class="hidden group-hover:block text-center font-[Josefin Sans] font-medium text-[#ffffe6] w-full text-sm">dbksalon</h1>
+             
+          </div>
+          <div class="flex justify-end items-end">
+            <i class="fa fa-clock-o text-[#ffffe6] text-sm items-end hidden group-hover:block ">jul 22</i></div>
+          </div> 
+          <div class="flex justify-end items-end">
+            <i class="fa fa-instagram text-[#ffffe6] text-2xl items-end hidden group-hover:block -mt-10 p-2"></i></div>
+          </div>
+          <div class="bg-[url('Assests/fifth.jpg')] w-[300px] h-[300px] bg-cover group">
+            <div class=" flex justify-end items-end">
+              <i class="fa fa-clone text-[#ffffe6] text-3xl text-end w-12 h-12"></i>
+            </div>
+            <div class="flex justify-between items-center flex-col w-4/5 h-[83%]">
+            <div class=" text-4xl text-black hover:opacity-70 justify-start flex items-start -mt-10 mx-4">
+              <h1 class="hidden group-hover:block text-center font-[Josefin Sans] font-medium text-[#ffffe6] w-full text-sm">dbksalon</h1>
+             
+          </div>
+          <div class="flex justify-end items-end">
+            <i class="fa fa-clock-o text-[#ffffe6] text-sm items-end hidden group-hover:block ">jul 22</i></div>
+          </div> 
+          <div class="flex justify-end items-end">
+            <i class="fa fa-instagram text-[#ffffe6] text-2xl items-end hidden group-hover:block -mt-10 p-2"></i></div>
+          </div>
+        </div>
+        <div class="hidden lg:flex items-center justify-between">
+            <div class=" w-full h-[130px] bg-black flex items-center justify-center">
+              <div class="w-[10%] flex items-start justify-start">
+              <img src="Assests/logo.png" alt=""class="w-[90px] h-[77px]">
+            </div>
+              <div class=" flex items-start justify-start">
+                <ul class="space-x-6 p-8 mt-2 mr-6">
+                
+                  <li class="list-none inline-block">
+                    <a href="About.html" class="text-white font-[Josefin Sans] font-light">ABOUT</a>
+                  </li>
+                  <li class="list-none inline-block">
+                    <a href="Services.html" class="text-white font-[Josefin Sans] font-light">SERVICES</a>
+                  </li>
+                  <li class="list-none inline-block">
+                    <a href="Gallery.html" class="text-white font-[Josefin Sans] font-light">GALLERY</a>
+                  </li>
+                  <li class="list-none inline-block">
+                    <a href="Careers.html" class="text-white font-[Josefin Sans] font-light">CAREER</a>
+                  </li>
+                  <li class="list-none inline-block">
+                    <a href="Contact.html" class="text-white font-[Josefin Sans] font-light">CONTACT</a>
+                  </li>
+                  <li class="list-none inline-block">
+                    <a href="index.html" class="text-white font-[Josefin Sans] font-light">SALON POLICIES</a>
+                  </li>
+                  </ul>
+              </div>
+            </div>
+           
+          </div>
+        <div class="">
+          <div class=" h-[130px] w-full  bg-black flex lg:hidden items-center justify-center">
+            <img src="Assests/logo.png" alt=""class=" w-[95px] h-[77px]">
+          </div>
+          <div class="flex flex-col justify-center items-center bg-gradient-to-r from-[rgba(26,26,26,0.8)] to-[rgba(26,26,26,0.8)]">
+            <h1 class="font-[Dancing-Script,Cursive] text-3xl text-[#fff] font-extralight w-full text-center h-1/2 p-1 mt-6">
+              our
+            </h1>
+            <h1 class="font-[Josefin Sans] font-extralight text-3xl text-[#fff]">
+              Locations
+            </h1>
+            <div class="lg:flex lg: justify-around lg:w-11/12 lg:mt-6">
+            <div class="p-8">
+              <div class="flex">
+                <h2
+                  class="text-white font-[Josefin Sans] font-semibold lg:text-start text-center text-xl lg:text-lg ml-3 lg:ml-0"
+                >
+                  York Mills
+                </h2>
+                <a
+                  href="#(416) 383-1616"
+                  class="text-[#8aaec3] font-[Josefin Sans] font-semibold lg:mx-3 mx-2 text-center lg:text-start text-xl lg:text-lg"
+                  >.(416) 383-1616</a
+                >
+              </div>
+              <h1 class="text-white font-[Josefin Sans] font-extralight lg:text-start text-center mt-6 lg:mt-0 text-xl p-1 lg:text-lg">
+                York Mills Garden
+              </h1>
+              <h1 class="text-white font-[Josefin Sans] font-extralight text-xl lg:text-start text-center p-1 lg:text:lg">
+                808 York Mills Road,
+              </h1>
+              <h1 class="text-white font-[Josefin Sans] font-extralight text-xl lg:text-start text-center p-1 lg:text-lg">
+                Toronto, Ontario M3B 1X8
+              </h1>
+              <a
+                href="https://goo.gl/maps/ESVYpb9QagxaV2qM9"
+                target="_blank"
+                rel="noopener"
+                class="text-[#8aaec3] font-[Josefin Sans] font-light "
+                ><p class="text-center lg:text-start p-1">View Map</p></a
+              >
+              <div class="flex justify-center items-center lg:justify-start lg:items-start">
+                <i
+                  class="fa fa-facebook-square w-10 h-8 text-[#8aaec3] text-2xl pl-3 lg:pl-1"
+                ></i>
+                <i class="fa fa-instagram w-12 h-8 text-[#8aaec3] text-2xl"></i>
+              </div>
+            </div>
+           
+            <div class="p-8">
+              <div class="flex">
+                <h2
+                  class="text-white font-[Josefin Sans] font-semibold lg:text-start text-center text-xl lg:text-lg ml-3 lg:ml-0"
+                >
+                Lawrence
+                </h2>
+                <a
+                  href="#(416) 383-1616"
+                  class="text-[#8aaec3] font-[Josefin Sans] font-semibold lg:mx-3 mx-2 text-center lg:text-start text-xl lg:text-lg"
+                  > (416) 285-8988</a
+                >
+              </div>
+              <h1 class="text-white font-[Josefin Sans] font-extralight lg:text-start text-center mt-6 lg:mt-0 text-xl p-1 lg:text-lg">
+                Victoria Terrace Shopping Centre
+              </h1>
+              <h1 class="text-white font-[Josefin Sans] font-extralight text-xl lg:text-start text-center p-1 lg:text-lg">
+                1448 Lawrence Avenue East,
+              </h1>
+              <h1 class="text-white font-[Josefin Sans] font-extralight text-xl lg:text-start text-center p-1 lg:text-lg">
+                Toronto, Ontario M4A 2V6
+              </h1>
+              <a
+                href="https://goo.gl/maps/ESVYpb9QagxaV2qM9"
+                target="_blank"
+                rel="noopener"
+                class="text-[#8aaec3] font-[Josefin Sans] font-light "
+                ><p class="text-center lg:text-start p-1">View Map</p></a
+              >
+              <div class="flex justify-center items-center lg:justify-start lg:items-start">
+                <i
+                  class="fa fa-facebook-square w-10 h-8 text-[#8aaec3] text-2xl pl-3 lg:pl-1"
+                ></i>
+                <i class="fa fa-instagram w-12 h-8 text-[#8aaec3] text-2xl"></i>
+              </div>
+            </div>
+            <div class="p-8">
+              <div class="flex">
+                <h2
+                  class="text-white font-[Josefin Sans] font-semibold lg:text-start text-center text-xl lg:text-lg ml-5 lg:ml-0"
+                >
+                Bayview
+                </h2>
+                <a
+                  href="#(416) 383-1616"
+                  class="text-[#8aaec3] font-[Josefin Sans] font-semibold lg:mx-3 mx-2 text-center lg:text-start text-xl lg:text-lg"
+                  > (416) 901-8844</a
+                >
+              </div>
+              <h1 class="text-white font-[Josefin Sans] font-extralight lg:text-start text-center mt-6 lg:mt-0 text-xl p-1 lg:text-lg">
+                Arc Condos
+              </h1>
+              <h1 class="text-white font-[Josefin Sans] font-extralight text-xl lg:text-start text-center p-1 lg:text-lg">
+                2885 Bayview Ave
+              </h1>
+              <h1 class="text-white font-[Josefin Sans] font-extralight text-xl lg:text-start text-center p-1 lg:text-lg">
+                North York, ON M2K 0A3
+              </h1>
+              <a
+                href="https://goo.gl/maps/ESVYpb9QagxaV2qM9"
+                target="_blank"
+                rel="noopener"
+                class="text-[#8aaec3] font-[Josefin Sans] font-light "
+                ><p class="text-center lg:text-start p-1">View Map</p></a
+              >
+              <div class="flex justify-center items-center lg:justify-start lg:items-start">
+                <i
+                  class="fa fa-facebook-square w-10 h-8 text-[#8aaec3] text-2xl pl-3 lg:pl-1"
+                ></i>
+                <i class="fa fa-instagram w-12 h-8 text-[#8aaec3] text-2xl"></i>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        
+    <footer class="bg-white ">
+      <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between justify-center">
+        <p class="text-sm text-gray-500 sm:text-center dark:text-gray-400 text-center">© 2023 DBK Salon.<a href="/" class="hover:underline">™</a>. All Rights Reserved.
+      </p>
+      <div class="flex flex-wrap  text-gray-500  dark:text-gray-400 justify-center">
+      <p class="text-center lg:text-end text-sm">Web design by M Hamza</p>
+    </div>
+      </div>
+    </footer>
+</body>
+
+</html>
